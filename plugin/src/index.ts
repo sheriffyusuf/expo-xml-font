@@ -43,7 +43,7 @@ const withAndroidXMLFont = (config: ExpoConfig, fonts: WithXMLFontOptions) => {
     mainApplication = mergeContents({
       src: mainApplication,
       anchor: "import com.facebook.react.ReactPackage",
-      newSrc: "import com.facebook.react.views.text.ReactFontManager",
+      newSrc: "import com.facebook.react.common.assets.ReactFontManager",
       comment: "//",
       offset: 1,
       tag: "expo-xml-font:import-rn-font-manager-line",
